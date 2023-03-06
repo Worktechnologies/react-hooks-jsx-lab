@@ -17,6 +17,17 @@ h5,
 h6 {
   font-family: "Playfair Display", serif;
   margin-bottom: 1em;
+  
+}
+
+h1
+{
+  font-size: 50px;
+  color:  firebrick;
+  padding-left: 100px;
+  padding-top: 100px;
+  text-align: center;
+
 }
 
 nav {
@@ -43,7 +54,6 @@ nav a:active {
   border-bottom: 2px solid tomato;
 }
 
-#home,
 #about {
   display: flex;
   align-items: center;
@@ -56,9 +66,14 @@ nav a:active {
 }
 
 #home {
+  font-size: 50%;
+  color: firebrick;
   background-color: cornsilk;
+  
+ 
 }
 
 #about img {
   max-height: 50%;
 }
+
